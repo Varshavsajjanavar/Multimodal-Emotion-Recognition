@@ -12,6 +12,13 @@ This project implements a complete multimodal emotion recognition system that cl
 The goal is to study how different modalities contribute to emotion classification and how fusion improves robustness.
 
 ---
+## Additional Files
+
+The dataset, trained model checkpoints are too large to include directly in this repository. The complete project archive is available via Google Drive at the link below.
+
+This archive contains all data files and pretrained models used to generate the reported results and allows full reproduction of the experiments.
+[https://drive.google.com/drive/folders/1rf3gA4WJz1RB_QeHkuRhpN7DBEYrRYaP?usp=sharing]
+
 
 ## Dataset
 
@@ -186,5 +193,17 @@ Possible extensions include:
 * Cross-speaker generalization experiments
 
 ---
+## Alternative Approach:
+This variant implements multimodal emotion recognition with attention-based speech modeling and a speaker-wise train/test split to prevent data leakage. It provides a fully Colab-ready pipeline for preprocessing, training, evaluation, and t-SNE visualization. Data and pretrained models are accessible via a drive link.[https://drive.google.com/drive/folders/1R55rEK5HVFIfvpszv9Qa-kiJ5ecJpCQv?usp=sharing]
+
+Results:
+
+| Model  | Accuracy | F1 Score |
+| ------ | -------- | -------- |
+| Speech | 1.0      | 1.0      |
+| Text   | 0.2857   | 0.1837   |
+| Fusion | 0.9993   | 0.9993   |
+
+Confusion matrices and t-SNE plots for each model are included in results/plots.
 
 Name : Varsha Sajjanavar
