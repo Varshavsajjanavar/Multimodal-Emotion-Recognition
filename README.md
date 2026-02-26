@@ -92,15 +92,6 @@ project/
 
 ---
 
-## Installation
-
-Clone the repository and install dependencies:
-
-```
-git clone <your-repository-url>
-cd <repository-folder>
-pip install -r requirements.txt
-```
 
 ---
 
